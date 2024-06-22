@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+.specific-style * {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.specific-style {
+  background-color: #ccd3d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh; 
+  margin: 0; 
+  padding: 0;
+  overflow: auto;
+}
+
+
+body {
+  background-color: #ccd3d4;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh; 
+  overflow: auto; 
+}
+
+.specific-style h1 {
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  margin: 0;
+  margin-bottom: 17px;
+}
+
+.specific-style h1.title {
+  font-size: 45px;
+  line-height: 45px;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(16, 64, 74, 0.5);
+}
+
+.specific-style p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+  text-shadow: 0 0 10px rgba(16, 64, 74, 0.5);
+}
+
+.specific-style span {
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.specific-style a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+  transition: 0.3s ease-in-out;
+}
+
+.specific-style a:hover {
+  color: #4bb6b7;
+}
+
+.specific-style .content {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.specific-style .flex-container input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.specific-style .content input {
+  accent-color: #333;
+  width: 12px;
+  height: 12px;
+}
+
+.specific-style .content label {
+  font-size: 14px;
+  user-select: none;
+  padding-left: 5px;
+  margin-right: 10px;
+}
+
+.specific-style button {
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #f89c33;
+  background-color: #33caf8;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 12px 40px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+
+.specific-style button:hover {
+  letter-spacing: 3px;
+}
+
+.specific-style button:active {
+  transform: scale(0.95);
+}
+
+.specific-style button:focus {
+  outline: none;
+}
+
+.specific-style .form-group1 {
+  display: flex;
+  background-color: #eee;
+  align-items: left;
+  justify-content: left;
+  width: 100%;
+}
+
+.specific-style .form-group1 label {
+  background-color: #eee;
+  border-radius: 7px;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  font-size: 12px;
+}
+
+.specific-style .form-group2 {
+  display: flex;
+  align-items: left;
+  margin: 10px;
+}
+
+.specific-style .form-group2 label {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.specific-style .form-group3 {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.specific-style form {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.specific-style input {
+  background-color: #eee;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.specific-style .container {
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 390px;
+  max-width: 100%;
+  min-height: 500px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.specific-style .form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.specific-style .login-container {
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.specific-style .logcontainer {
+  background-color: #d8e6f3;
+  border-radius: 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  max-width: 100%;
+  min-height: 500px;
+}
+
+.specific-style .logcontainer2 {
+  background-color: #d8e6f3;
+  border-radius: 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  max-width: 100%;
+  min-height: 900px;
+}
+
+
+
+.specific-style .custom-error {
+  color: red;
+}
+
+
+.specific-style .password-container {
+  position: relative;
+  width: 100%;
+}
+
+.specific-style .password-container input {
+  width: 100%;
+  padding-right: 2.5em; 
+}
+
+.specific-style .password-toggle-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-130%);
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.specific-style .form-group4 {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.specific-style .form-group4 label {
+  background-color: #ffffff;
+  border-radius: 7px;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  align-items: center;
+  font-size: 12px;
+  margin-left: 47px;
+}
+
+
+.specific-style .form-group5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.specific-style .scrollable-container {
+  height: 300px;
+  width: 300px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.specific-style .flex-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18;
+}
+
+.specific-style .flex-container span {
+  white-space: nowrap;
+  margin-top: -1px;
+}
+
+
+.specific-style2 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh; 
+  min-width: 100vh;
+  overflow: auto;
+
+}
+
+
+.specific-style2 h1 {
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  margin-bottom: 17px;
+  margin-left: 17px;
+}
+
+
+.specific-style2 p {
+  margin-left: 17px;
+}
+
+.specific-style2 button {
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #f89c33;
+  background-color: #33caf8;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 12px 40px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+
+.specific-style2 button:hover {
+  letter-spacing: 3px;
+}
+
+.specific-style2 button:active {
+  transform: scale(0.95);
+}
+
+.specific-style2 button:focus {
+  outline: none;
+}
