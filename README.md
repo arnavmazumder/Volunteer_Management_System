@@ -2,10 +2,6 @@
 
 This Volunteer Management System is a full-stack web application designed to track and manage volunteer hours for nonprofit organizations. It supports different user roles (volunteer, officer, admin) and provides a range of functionalities from logging hours to approving requests and exporting data for award applications.
 
-![hippo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenFpMXFnMDByMzIwcXQzeWR5cXd6bWZla2o5YjE2aDdmZjNmbXh2biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XOQQw44sg1H0Iak4Oj/giphy.gif)
-
-
-
 ## Features
 
 - **User Roles**: Three distinct user roles with specific functionalities:
@@ -27,7 +23,7 @@ This Volunteer Management System is a full-stack web application designed to tra
 - **Email Handling**: SES for tracking bounces and complaints
 
 ## Getting Started
-This repository contains no backend code or commit history for security purposes. By cloning this repository, you will be able to run a webdevpack server to work with the frontend. For full functionality, you will need to implement the backend according to the API calls made in the frontend. The full website has been deployed <a href=https://volunteers.surdaan.org>here<a>. You may also contact me at arnavmazumder2023@gmail.com if you are interested in seeing the full project.
+This repository contains no backend code for security purposes. By cloning this repository, you will be able to run a webdevpack server to work with the frontend. For full functionality, you will need to implement the backend according to the API calls made in the frontend. The full website has been deployed <a href=https://volunteers.surdaan.org>here<a>.
 
 ### Prerequisites
 
@@ -37,7 +33,7 @@ This repository contains no backend code or commit history for security purposes
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/volunteer-management-system.git
+   git clone https://github.com/arnavmazumder/volunteer-management-system.git
 
 2. **Enter the client directory**
    ```bash
