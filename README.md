@@ -2,6 +2,9 @@
 
 This Volunteer Management System is a full-stack web application designed to track and manage volunteer hours for nonprofit organizations. It supports different user roles (volunteer, officer, admin) and provides a range of functionalities from logging hours to approving requests and exporting data for award applications.
 
+![hippo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenFpMXFnMDByMzIwcXQzeWR5cXd6bWZla2o5YjE2aDdmZjNmbXh2biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XOQQw44sg1H0Iak4Oj/giphy.gif)
+
+
 ## Features
 
 - **User Roles**: Three distinct user roles with specific functionalities:
